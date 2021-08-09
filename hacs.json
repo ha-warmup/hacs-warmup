@@ -1,0 +1,9 @@
+{
+  "name": "Warmup via HACs Test",
+  "content_in_root": true,
+  "render_readme": true,
+  "iot_class": "cloud_polling",
+  "domains": [
+        "cover",
+  ],
+}
