@@ -1,9 +1,9 @@
 {
   "domain": "warmup",
   "name": "Warmup",
-  "version": "2021.5.23",
-  "documentation": "https://www.home-assistant.io/components/warmup",
-  "issue_tracker": "https://github.com/ha-warmup/warmup/issues/",
+  "version": "2021.8.11",
+  "documentation": "https://github.com/ha-warmup/hacs-warmup/",
+  "issue_tracker": "https://github.com/ha-warmup/hacs-warmup/issues/",
   "dependencies": [],
   "codeowners": [],
   "requirements": []
