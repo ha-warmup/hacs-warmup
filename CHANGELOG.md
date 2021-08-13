@@ -19,8 +19,9 @@ Recent features from development that have not been formally released yet:
 
 ### Changed
 
+* Converted project from Manually-delivered Custom Component (https://github.com/ha-warmup/warmup/) to HACS Integration (https://github.com/ha-warmup/hacs-warmup) inlcuding numerous changes to documentation
 * Converted README and LICENSE to Markdown
-* Clarified install instructions following user feedback #30 #31
+* Clarified install instructions following user feedback #30 #31 (only applied to old custom component)
 * 
 
 ### Fixed

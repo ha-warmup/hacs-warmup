@@ -27,3 +27,20 @@ Please raise an issue if you want further guidance on developing new features or
 
 Once you have completed your development and testing on your changes, 
 then please raise a Pull Request for us to be able to merge in your work. They should be merged into the **dev** branch.
+
+## Release
+
+When delivering new changes to this project you should include the following procedures:
+
+* [CHANGELOG.md](CHANGELOG.md#unreleased)
+	* add entries for each sustantive change to the `Unreleased` section
+	* these can be based on the 'commit' comments from contributors
+* 
+
+* Set the Tag name for the Release to be the same as the version
+* 
+
+* Will we need to Zip the relase? If so mark zip_release = true in `hacs.json`.
+* 
+
+
