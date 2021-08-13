@@ -1,6 +1,6 @@
 {
   "name": "Warmup via HACs Test",
-  "render_readme": true,
+  "render_readme": false,
   "domains": [
     "climate"
   ],
