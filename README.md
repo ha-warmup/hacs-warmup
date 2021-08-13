@@ -26,7 +26,7 @@ contributing](https://github.com/ha-warmup/hacs-warmup/blob/master/CONTRIBUTING.
 This code is derived from some great work by
 [\@robchandhok](https://github.com/robchandhok) to convert the original [Warmup
 Custom Component and Python
-Package](https://github.com/ha-warmup/hacs-warmup), based on work by
+Package](https://github.com/ha-warmup/warmup), based on work by
 [\@alex0103](https://github.com/alex-0103) to create a [Home Assistant
 Custom Component and Python
 Package](https://github.com/alex-0103/warmup4IE). This has been improved

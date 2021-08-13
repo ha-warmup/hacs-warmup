@@ -1,5 +1,5 @@
 {
-  "name": "Warmup via HACs Test",
+  "name": "Warmup heating integration for 4IE thermostat",
   "render_readme": false,
   "domains": [
     "climate"
