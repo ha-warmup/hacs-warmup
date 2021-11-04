@@ -59,9 +59,7 @@ To setup this component, you need to register to warmup first. see
 <https://my.warmup.com/login>
 
 ### Deploy HACS integration 
-
-???
-
+Add this repo (https://github.com/ha-warmup/hacs-warmup) to HACS by following [the HACS custom repositories guide](https://hacs.xyz/docs/faq/custom_repositories)
 
 #### Warnings in logs
 
