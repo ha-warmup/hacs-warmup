@@ -31,7 +31,6 @@ from homeassistant.const import (
 from homeassistant.exceptions import InvalidStateError, PlatformNotReady
 import homeassistant.helpers.config_validation as cv
 from homeassistant.util import Throttle
-from homeassistant.util.temperature import convert as convert_temperature
 
 DOMAIN = "warmup"
 CONFIG_SCHEMA = vol.Schema(
@@ -149,6 +148,7 @@ class WarmupThermostat(ClimateEntity):
         self._min_temp = device.min_temp
         self._max_temp = device.max_temp
         self._name = device.get_room_name()
+        self._attr_unique_id = "warmup_" + device.get_serial_number()
 
         self._current_operation_mode = device.run_mode
         self._away = False
@@ -312,16 +312,12 @@ class WarmupThermostat(ClimateEntity):
     @property
     def min_temp(self):
         """Return the minimum temperature."""
-        return convert_temperature(
-            self._device.min_temp, TEMP_CELSIUS, self.hass.config.units.temperature_unit
-        )
+        return self._device.min_temp
 
     @property
     def max_temp(self):
         """Return the maximum temperature."""
-        return convert_temperature(
-            self._device.max_temp, TEMP_CELSIUS, self.hass.config.units.temperature_unit
-        )
+        return self._device.max_temp
 
     @property
     def supported_features(self):

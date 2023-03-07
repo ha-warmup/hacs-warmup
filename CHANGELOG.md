@@ -9,7 +9,33 @@ and what issues you might face.
 
 The most recent versions come first, and the Release Dates are YYYY-MM-DD
 
-## Unreleased
+## 2023.3.7
+
+Recent features from development that have not been formally released yet:
+
+### Added
+
+* 
+
+### Changed
+
+* 
+
+### Fixed
+
+* Swept change from @grmek in to give unique ID to entity (see https://github.com/ha-warmup/warmup/commit/57bfef6e38d43571746a3e0f86bac2a13188ab34)
+* Removed deprecated calls to temperature conversion, thanks to @kkoenen (see https://github.com/ha-warmup/warmup/commit/4c10cc60b6321db079fd9c8ad347f831d1782779)
+* 
+
+### Deprecated
+
+* 
+
+### Removed
+
+* 
+
+## 2021.8.11
 
 Recent features from development that have not been formally released yet:
 
