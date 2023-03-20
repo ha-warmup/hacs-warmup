@@ -1,3 +1,17 @@
+# Deprecated
+
+**This project is no longer being maintained**, 
+as the contributors have now worked to 
+integrate HACS compatibility into the main
+ha-warmup repo at <https://github.com/ha-warmup/warmup/>
+
+Please update your Home Assistant Community Store 
+settings so that the Custom Repository for the Warmup integration now points to 
+
+```
+https://github.com/ha-warmup/warmup/
+```
+
 # Introduction
 
 This software is a Home Assistant Community Store ([HACS](https://hacs.xyz/)) integration for Warmup devices.

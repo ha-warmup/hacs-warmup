@@ -1,5 +1,18 @@
-Warmup Plc manufacture underfloor heating and control systems and their wifi-enabled home thermostat, warmup 4IE, has a cloud-based API. This `hacs-warmup` HACS Integration enables communication via that API, and allows Home Assistant to read and control the device (currently just this one model). It is a Home Assistant 'custom component' using a python script to perform the integration. 
+# Deprecated
 
-Please see the full project README for details at https://github.com/ha-warmup/hacs-warmup
+**This project is no longer being maintained**, 
+as the contributors have now worked to 
+integrate HACS compatibility into the main
+ha-warmup repo at <https://github.com/ha-warmup/warmup/>
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/ha-warmup/hacs-warmup)
+Please update your Home Assistant Community Store 
+settings so that the Custom Repository for the Warmup integration now points to 
+
+```
+https://github.com/ha-warmup/warmup/
+```
+
+For Home Assistance integration 
+with Warmup Plc manufactured
+underfloor heating and control systems, such as 4IE and 6IE thermostats, please switch 
+to the new custom repository above.
